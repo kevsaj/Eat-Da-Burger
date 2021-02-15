@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-let PORT;
 
 app.use(express.static('public'))
 app.use(express.urlencoded({ extended: true }));
@@ -14,6 +13,6 @@ app.set('view engine', 'handlebars');
 const routes = require('./controllers/controller');
 app.use(routes);
 
-app.listen(PORT, () => {
-    console.log(`Server listening on http://localhost:${PORT}`)
+app.listen(process.env.PORT, () => {
+    console.log(`Server listening on http://localhost:${process.env.PORT}`)
 });
