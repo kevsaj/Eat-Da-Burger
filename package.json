@@ -1,0 +1,19 @@
+{
+  "name": "eatdaburger",
+  "version": "1.0.0",
+  "description": "a restaurant app that lets users input the names of burgers they'd like to eat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevsaj/Eat-Da-Burger.git"
+  },
+  "author": "kevsaj",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kevsaj/Eat-Da-Burger/issues"
+  },
+  "homepage": "https://github.com/kevsaj/Eat-Da-Burger#readme"
+}
