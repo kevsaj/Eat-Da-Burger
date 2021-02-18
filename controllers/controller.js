@@ -5,11 +5,11 @@ const router = express.Router();
 const burger =  require('./../models/burger');
 
 router.get('/', (req, res) => {
-    burger.all((data) => {
+    burger.selectAll((data) => {
         const hbsObject = {
             burgers: data,
         }
-        res.render('main', hbsObject);
+        res.render('index', hbsObject);
     })
 });
 
