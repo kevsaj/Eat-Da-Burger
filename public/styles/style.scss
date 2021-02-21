@@ -1,4 +1,57 @@
-@import "reset";
+* {
+    box-sizing: border-box;
+}
 
-@import "globals";
+body {
+    background-color: orange;
+    height: 100%;
+    margin: 0;
+}
 
+button {
+    margin-left: 10px;
+    height: 25px;
+    margin-top: 12.5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+}
+
+.devoured {
+    min-width: 250px;
+    max-width: 250px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.not-devoured {
+    min-width: 250px;
+    max-width: 250px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    margin: 0 auto;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    height: 50px;
+    width: 225px;
+    background: wheat;
+}
