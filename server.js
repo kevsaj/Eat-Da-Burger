@@ -1,13 +1,13 @@
 const express = require('express');
 let PORT;
 const app = express();
+const path = require('path');
 
 if (process.env.JAWSDB_URL) {
     PORT = process.env.PORT;
 } else {
     PORT = process.env.PORT || 8080;
 }
-
 
 // A 'route' for all static content such as css, imgs, and other, whenever a link to an external file is called
 app.use(express.static('public'))
